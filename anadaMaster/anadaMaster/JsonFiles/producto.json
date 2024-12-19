@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Vino blanco",
+    "descripcion": "",
+    "precio": 15.89,
+    "cantidadBotellas": 5,
+    "formatoBotella": "",
+    "cosecha": 2015,
+    "Id": "dee9ad80-3a1f-4a63-b33f-6c726b8f1d87"
+  },
+  {
+    "nombre": "Vino tinto",
+    "descripcion": "",
+    "precio": 14.95,
+    "cantidadBotellas": 8,
+    "formatoBotella": "",
+    "cosecha": 2019,
+    "Id": "dee9ad80-3a1f-4a63-b33f-6c726b8f1d89"
+  },
+  {
+    "nombre": "Vino duce",
+    "descripcion": "",
+    "precio": 21.87,
+    "cantidadBotellas": 7,
+    "formatoBotella": "",
+    "cosecha": 2020,
+    "Id": "dee9ad80-3a1f-4a63-b33f-6c726b8f1d84"
+  },
+  {
+    "nombre": "vino espumoso",
+    "descripcion": "",
+    "precio": 14.8,
+    "cantidadBotellas": 5,
+    "formatoBotella": "",
+    "cosecha": 2016,
+    "Id": "87266d0f-a988-4947-a11b-4f7013a3a035"
+  }
+]

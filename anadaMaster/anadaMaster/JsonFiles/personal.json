@@ -1,0 +1,35 @@
+[
+  {
+    "id": "f7b38bf4-f8be-4310-a916-1df5a07ac710",
+    "nombre": "Carolina",
+    "apellido": "Gutierrez",
+    "direccion": "C/Adolfo Perez Esquivel",
+    "fechaIngreso": "2024-12-07",
+    "NUSS": "456789",
+    "NIF": "564567M",
+    "tipoEmpleado": "Administrador",
+    "contrasena": "a"
+  },
+  {
+    "id": "4fa674dc-c947-493b-84e0-ed61b713b805",
+    "nombre": "Arabia",
+    "apellido": "Martinez",
+    "direccion": "C/ Blasco de Garay",
+    "fechaIngreso": "2024-12-07",
+    "NUSS": "5555555",
+    "NIF": "6547123L",
+    "tipoEmpleado": "Personal",
+    "contrasena": "a"
+  },
+  {
+    "id": "15879dfe-811a-4de1-b0e9-2aad3c61ed58",
+    "nombre": "Diego",
+    "apellido": "García-Romero",
+    "direccion": "C/ Camilo Jose Cela",
+    "fechaIngreso": "2024-12-07",
+    "NUSS": "5456872",
+    "NIF": "3256894J",
+    "tipoEmpleado": "Administrador",
+    "contrasena": "a"
+  }
+]

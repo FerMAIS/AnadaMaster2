@@ -1,0 +1,52 @@
+[
+  {
+    "Id": 1,
+    "Nombre": "Uva Cabernet Sauvignon",
+    "Cantidad_kg": 1000,
+    "Origen": "Valle de Napa",
+    "Descripcion": "Uva de alta calidad para vino tinto",
+    "Tipo_de_uva": "Cabernet Sauvignon",
+    "Grado_de_madurez": "Óptimo",
+    "Calidad_de_la_uva": 5
+  },
+  {
+    "Id": 2,
+    "Nombre": "Uva Chardonnay",
+    "Cantidad_kg": 800,
+    "Origen": "Valle de Casablanca",
+    "Descripcion": "Uva utilizada para vinos blancos frescos",
+    "Tipo_de_uva": "Chardonnay",
+    "Grado_de_madurez": "Adecuado",
+    "Calidad_de_la_uva": 4
+  },
+  {
+    "Id": 3,
+    "Nombre": "Uva Merlot",
+    "Cantidad_kg": 1200,
+    "Origen": "Región de Burdeos",
+    "Descripcion": "Uva versátil para vinos tintos suaves",
+    "Tipo_de_uva": "Merlot",
+    "Grado_de_madurez": "Excelente",
+    "Calidad_de_la_uva": 5
+  },
+  {
+    "Id": 4,
+    "Nombre": "Uva Syrah",
+    "Cantidad_kg": 950,
+    "Origen": "Valle del Ródano",
+    "Descripcion": "Uva para vinos intensos y especiados",
+    "Tipo_de_uva": "Syrah",
+    "Grado_de_madurez": "Óptimo",
+    "Calidad_de_la_uva": 4
+  },
+  {
+    "Id": 5,
+    "Nombre": "Uva Malbec",
+    "Cantidad_kg": 700,
+    "Origen": "Mendoza",
+    "Descripcion": "Uva ideal para vinos tintos robustos",
+    "Tipo_de_uva": "Malbec",
+    "Grado_de_madurez": "Adecuado",
+    "Calidad_de_la_uva": 4
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "b7df43e6-273a-4197-a8ca-0daff2dc4197",
+    "nombre": "Carolina",
+    "apellido": "Gutiérrez",
+    "direccion": "C/ Adolfo Perez Esquivel",
+    "fechaIngreso": "2024-12-04",
+    "NIF": "1548797b"
+  },
+  {
+    "id": "b517a7da-45b5-4e86-abdc-4395b07549f3",
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "direccion": "C/Real ",
+    "fechaIngreso": "2024-12-18",
+    "NIF": "44269875E"
+  }
+]

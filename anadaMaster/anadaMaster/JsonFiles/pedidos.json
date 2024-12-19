@@ -1,0 +1,85 @@
+[
+  {
+    "id": "657d521f-4e2c-489c-91a1-b447740c2dbb",
+    "idCliente": "4589c241-b700-49a7-9eb2-dc29c1930377",
+    "estado": "tramite",
+    "fecha": "2024-12-16",
+    "descuento": 3,
+    "cantidadBotellas": {
+      "4": 7,
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d85": 1,
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d84": 3,
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d87": 12,
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d89": 4
+    },
+    "precioTotal": 316.09000000000003
+  },
+  {
+    "id": "c46b915f-969e-4022-b919-365de5dc4f5a",
+    "idCliente": "4589c241-b700-49a7-9eb2-dc29c1930377",
+    "estado": "entregado",
+    "fecha": "2024-12-16",
+    "descuento": 5,
+    "cantidadBotellas": {
+      "3": 1,
+      "4": 2,
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d87": 2,
+      "vino espumoso87266d0f-a988-4947-a11b-4f7013a3a035": 4
+    },
+    "precioTotal": 249.88
+  },
+  {
+    "id": "64adbe21-a62b-44e7-a338-f1183e17bfa2",
+    "idCliente": "4589c241-b700-49a7-9eb2-dc29c1930377",
+    "estado": "tramite",
+    "fecha": "2024-12-16",
+    "descuento": 2,
+    "cantidadBotellas": {
+      "4": 1,
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d84": 1
+    },
+    "precioTotal": 37.556400000000004
+  },
+  {
+    "id": "854ee32c-0984-43e7-8698-66a740baca69",
+    "idCliente": "4589c241-b700-49a7-9eb2-dc29c1930377",
+    "estado": "tramite",
+    "fecha": "2024-12-16",
+    "descuento": 2,
+    "cantidadBotellas": {
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d84": 1,
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d85": 1,
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d82": 2
+    },
+    "precioTotal": 21.4326
+  },
+  {
+    "id": "2a80f805-2595-415d-bd42-7e1d4550ec7b",
+    "idCliente": "4589c241-b700-49a7-9eb2-dc29c1930377",
+    "estado": "tramite",
+    "fecha": "2024-12-17",
+    "descuento": 10,
+    "cantidadBotellas": {
+      "vino espumoso87266d0f-a988-4947-a11b-4f7013a3a035": 7,
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d87": 2,
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d84": 3,
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d89": 4
+    },
+    "precioTotal": 260.79
+  },
+  {
+    "id": "7eb3c564-4081-47ae-905c-ad4fabe54c91",
+    "idCliente": "5062a9d2-b246-4648-8311-884a12d608e3",
+    "estado": "tramite",
+    "fecha": "2024-12-18",
+    "descuento": 7,
+    "cantidadBotellas": {
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d85": 0,
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d87": 1,
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d84": 1,
+      "dee9ad80-3a1f-4a63-b33f-6c726b8f1d89": 1,
+      "vino espumoso87266d0f-a988-4947-a11b-4f7013a3a035": 1
+    },
+    "precioTotal": 62.7843
+  }
+]

@@ -1,0 +1,823 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f7f1e3;
+  color: #5e2d00;
+  text-align: center;
+}
+
+/* Logo del login */
+#logo {
+  display: block;
+  margin: 0 auto 1.5rem auto; /* Aumenta el margen inferior */
+  width: 200px; /* Tamaño ajustado */
+  height: auto;
+  border-radius: 5%; /* Borde redondeado */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Contenedor principal - Login */
+#contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Login Box */
+#login {
+  background-color: #ffffff;
+  border: 2px solid #8e443d;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+#login h1 {
+  font-size: 2rem;
+  color: #8e443d;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+/* Inputs y Botón Login */
+#login input {
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+#login button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #8e443d;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease;
+}
+
+#login button:hover {
+  background-color: #6b2c25;
+  transform: translateY(-3px);
+}
+
+#login button:active {
+  transform: translateY(1px);
+}
+
+/* Mensaje */
+#mensaje {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #8e443d;
+}
+
+/* Contenedor principal - Home */
+#inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Título principal */
+#inicio h1 {
+  font-size: 3rem;
+  color: #8e443d;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Botones Home */
+#inicio button {
+  padding: 0.7rem 1.5rem;
+  margin: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #8e443d;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease;
+}
+
+#inicio button:hover {
+  background-color: #6b2c25;
+  transform: translateY(-3px);
+}
+
+#inicio button:active {
+  transform: translateY(1px);
+}
+
+/* Contenedor principal - Core Reservas */
+#core {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Título Core Reservas */
+#core h1 {
+  font-size: 2.5rem;
+  color: #8e443d;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Botones Core Reservas */
+#core button {
+  padding: 0.7rem 1.5rem;
+  margin: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #8e443d;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease;
+}
+
+#core button:hover {
+  background-color: #6b2c25;
+  transform: translateY(-3px);
+}
+
+#core button:active {
+  transform: translateY(1px);
+}
+
+/* Contenedor Clientes */
+#cliente {
+  padding: 2rem;
+}
+
+#cliente h1 {
+  font-size: 2.5rem;
+  color: #8e443d;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+#cliente input {
+  width: 39%;
+  padding: 8px;
+  margin-top: 16px;
+  border: 1px solid #e1d3c1;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  align-items: center;
+}
+
+#cliente button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #8e443d;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#cliente button:hover {
+  background-color: #6b2c25;
+  transform: translateY(-3px);
+}
+
+/* Formulario Editar Cliente */
+#editar {
+  background-color: #a5754954;
+  padding: 3rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 10px;
+  margin-top: 2rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#editar:hover {
+  transform: translateY(-5px); /* Efecto de elevación */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+#editar label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #8e443d;
+  font-size: 1.1rem;
+}
+
+#editar input,
+#editar textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffffc9;
+  font-size: 1rem;
+  color: #5e2d00;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+#editar input:focus {
+  border-color: #8e443d;
+  background-color: #fff;
+}
+
+#editar button {
+  padding: 0.8rem 1.5rem;
+  background-color: #8e443d;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#editar button:hover {
+  background-color: #6b2c25;
+  transform: translateY(-3px);
+}
+
+#editar button:active {
+  transform: translateY(1px);
+}
+
+/* Formulario Ingresar Cliente */
+#form {
+  background-color: #a5754954; /* Fondo suave */
+  padding: 3rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 10px;
+  margin-top: 2rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#form:hover {
+  transform: translateY(-5px); /* Efecto de elevación */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+#form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #8e443d;
+  font-size: 1.1rem;
+}
+
+#form input,
+#form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffffc9;
+  font-size: 1rem;
+  color: #5e2d00;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+#form input:focus {
+  border-color: #8e443d;
+  background-color: #fff;
+}
+
+#form button {
+  padding: 0.8rem 1.5rem;
+  background-color: #8e443d;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#form button:hover {
+  background-color: #6b2c25;
+  transform: translateY(-3px);
+}
+
+#form button:active {
+  transform: translateY(1px);
+}
+
+/* Lista de Clientes */
+#cliente .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+#cliente .grid div {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#cliente .grid div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#cliente h3 {
+  font-size: 1.5rem;
+  color: #8e443d;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#cliente p {
+  font-size: 1rem;
+  color: #5e2d00;
+  margin-bottom: 0.6rem;
+}
+
+#cliente button {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #8e443d;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s, transform 0.2s ease;
+}
+
+#cliente button:hover {
+  background-color: #6b2c25;
+  transform: translateY(-3px);
+}
+
+#cliente button:active {
+  transform: translateY(1px);
+}
+
+/* General Container */
+#editar-pedido {
+  background-color: #fdfaf3; /* Color de fondo: beige claro */
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  border: 1px solid #e1d3c1; /* Tono de contorno */
+}
+
+/* Heading Style */
+#editar-pedido h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #6e4e37; /* Marrón vino */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Input Styles */
+#editar-pedido label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  color: #4b3621; /* Marrón oscuro */
+}
+
+#editar-pedido input,
+#editar-pedido select{
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  transition: border-color 0.3s ease;
+}
+
+#editar-pedido input:focus,
+#editar-pedido select:focus {
+  outline: none;
+  border-color: #9d5036;
+  box-shadow: 0 0 5px rgba(157, 80, 54, 0.2);
+}
+
+/* Button Styles */
+#editar-pedido button {
+  cursor: pointer;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+#editar-pedido .bg-green-600 {
+  background-color: #6e8b3d;
+}
+
+#editar-pedido .bg-green-600:hover {
+  background-color: #556c30; 
+}
+
+#editar-pedido .bg-blue-600 {
+  background-color:#8e443d;
+}
+
+#editar-pedido .bg-blue-600:hover {
+  background-color: #8e443d; 
+}
+
+#editar-pedido .mt-2 {
+  margin-top: 12px;
+}
+
+#editar-pedido .mt-4 {
+  margin-top: 20px;
+}
+
+#editar-pedido .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Strong text */
+#editar-pedido strong {
+  color: #6e4e37; /* Marrón fuerte */
+  font-size: 1.05rem;
+}
+
+/* Additional Styles for Options */
+#editar-pedido option {
+  color: #4b3621;
+}
+
+
+/* Contenedor Principal */
+#pedido {
+  background-color: #fdf9f3; /* Beige claro */
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Encabezado Principal */
+#pedido h1 {
+  color: #6e4e37; /* Marrón vino */
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid #e1d3c1;
+  padding-bottom: 8px;
+}
+
+/* Mensaje de Feedback */
+#pedido .text-green-600 {
+  color: #6e4e37;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+
+.flex.items-center {
+  display: flex;
+  align-items: center; /* Centra los elementos verticalmente */
+  justify-content: center;
+  gap: 12px; /* Espacio uniforme entre botones y cantidad */
+}
+
+#hacer-pedido {
+  background-color: #f7f1e3;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#hacer-pedido h1 {
+  color: #8e443d;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid #6b2c25;
+}
+
+/* Mensaje de Feedback */
+#hacer-pedido .text-green-600 {
+  color: #6e4e37; 
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+/* Sección de Precio Total */
+#hacer-pedido h3 {
+  margin-top: 16px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #6e4e37; /* Marrón vino */
+  text-align: center;
+}
+
+/* Botón para Ver Pedidos  y Aceptar*/
+#botonPedido {
+  display: block;
+  margin: 0 auto 16px auto;
+  background-color:  #8e443d;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#botonPedido:hover {
+  background-color:  #8e443d;
+}
+
+
+#form-pedido input,
+#form-pedido select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #e1d3c1;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  align-items: center;
+}
+
+/* Contenedor de los botones y cantidad */
+.flex.items-center {
+  display: flex;
+  align-items: center; /* Centra los elementos verticalmente */
+  justify-content: center;
+  gap: 12px; /* Espacio uniforme entre botones y cantidad */
+}
+
+/* Botones de incrementar/decrementar */
+.button-cantidad {
+  width: 36px; /* Tamaño fijo para altura y anchura */
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 6px; /* Bordes redondeados */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-cantidad:hover {
+  filter: brightness(1.1); /* Efecto al pasar el mouse */
+}
+
+/* Estilo específico para el botón de reducir (-) */
+.button-menos {
+  background-color:  #8e443d;
+}
+
+/* Estilo específico para el botón de aumentar (+) */
+.button-mas {
+  background-color:  #8e443d;
+}
+
+/* Cantidad central */
+.cantidad-central {
+  width: 50px; /* Tamaño uniforme de ancho */
+  height: 36px; /* Igual que los botones */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f7fafc; /* Fondo gris muy claro */
+  border: 1px solid #e2e8f0; /* Borde ligero */
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px; /* Bordes redondeados */
+  color: #2d3748; /* Texto gris oscuro */
+}
+
+/* Contenedor de la Lista de Pedidos */
+#lista-pedidos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fdf9f3; /* Fondo beige claro */
+}
+
+/* Pedido Individual */
+#lista-pedidos > div {
+  background-color: #fff;
+  border: 1px solid #e1d3c1;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+}
+
+#lista-pedidos > div:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px);
+}
+
+/* Encabezado del Pedido */
+#lista-pedidos h2 {
+  color: #9d5036; /* Marrón vibrante */
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  font-weight: bold;
+  border-bottom: 2px solid #e1d3c1;
+  padding-bottom: 8px;
+}
+
+/* Información del Pedido */
+#lista-pedidos p {
+  font-size: 0.95rem;
+  color: #4b3621; /* Marrón oscuro */
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+#lista-pedidos strong {
+  color: #6e4e37;
+  font-weight: 600;
+}
+
+/* Lista de Cantidades */
+#lista-pedidos ul {
+  margin: 10px 0;
+  padding: 0 0 0 16px;
+}
+
+#lista-pedidos li {
+  font-size: 0.9rem;
+  color: #4b3621;
+  list-style-type: square;
+  margin-bottom: 4px;
+}
+
+/* Botones del Pedido */
+#lista-pedidos button {
+  display: inline-block;
+  padding: 10px 14px;
+  background-color: #9d5036;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 6px;
+  transition: background-color 0.3s ease;
+}
+
+#lista-pedidos button:hover {
+  background-color: #8e443d;
+}
+
+/* Botón adicional (opcional) */
+#lista-pedidos button:last-of-type {
+  background-color: #6e4e37;
+}
+
+
+/* Mensaje de error o éxito */
+#mensaje {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #8e443d;
+  margin-top: 1rem;
+}
+
+/* Diseño en dispositivos móviles */
+@media (max-width: 768px) {
+  #cliente .grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  #cliente .grid div {
+    padding: 1rem;
+  }
+
+  #cliente button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+  }
+
+  #cliente h3 {
+    font-size: 1.3rem;
+  }
+
+  #cliente p {
+    font-size: 0.9rem;
+  }
+
+  #pedidos .grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  #pedidos .grid div {
+    padding: 1rem;
+  }
+
+  #pedidos button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+  }
+
+  #pedidos h3 {
+    font-size: 1.3rem;
+  }
+
+  #pedidos p {
+    font-size: 0.9rem;
+  }
+  #editar-pedido {
+    padding: 15px;
+  }
+
+  #editar-pedido h2 {
+    font-size: 1.5rem;
+  }
+
+  #editar-pedido button {
+    width: 100%;
+    margin-top: 8px;
+  }
+  #lista-pedidos {
+    grid-template-columns: 1fr;
+  }
+
+  #pedido h1 {
+    font-size: 1.8rem;
+  }
+
+  #lista-pedidos {
+    grid-template-columns: 1fr;
+  }
+
+  #hacer-pedido h1 {
+    font-size: 1.8rem;
+  }
+}
+
+
+
+
